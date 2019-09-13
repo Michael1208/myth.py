@@ -1,1 +1,1 @@
-worker: python Mythical.py
+worker: pythonMythical.py
