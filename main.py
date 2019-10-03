@@ -21,7 +21,7 @@ async def ping(ctx):
     
 @bot.command()
 async def slap(ctx):
-    await ctx.send(f"**{ctx.author.display_name just slapped {Target.mention}!**)
+    await ctx.send(f"**{ctx.author.display_name} just slapped {Target.mention}!**)
     return
     
 bot.run('NjIyMDYxODA4NDI5MDM5NjI3.XXudrw.FbMEm0MZjCbgT9RgEGSxqkCgkMc')
