@@ -6,6 +6,7 @@ from discord.ext import commands, tasks
 from itertools import cycle
 
 bot = commands.Bot(command_prefix='!')
+TOKEN = os.environ['TOKEN']
 
 @bot.event
 async def on_ready():        
@@ -19,4 +20,4 @@ async def ping(ctx):
     embed.add_field(name="latency", value="{} ms".format(int(ctx.bot.latency*1000)))
     await ctx.send(embed=embed)
     
-bot.run('NjIyMDYxODA4NDI5MDM5NjI3.XXudrw.FbMEm0MZjCbgT9RgEGSxqkCgkMc')
+bot.run(TOKEN)
