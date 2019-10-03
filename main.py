@@ -20,4 +20,8 @@ async def ping(ctx):
     embed.add_field(name="latency", value="{} ms".format(int(ctx.bot.latency*1000)))
     await ctx.send(embed=embed)
     
+@bot.command()
+async def @Mythical_Python#7120(ctx):
+    await ctx.send(Test LOL)
+    
 bot.run(TOKEN)
